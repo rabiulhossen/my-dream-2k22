@@ -1,3 +1,44 @@
-body {
-    font-family: 'Oswald', sans-serif;
-}
+                            body {
+                                font-family: 'Oswald', sans-serif;
+                            }
+                            
+                            h1 {
+                                font-size: 40px;
+                                font-weight: 800;
+                                font-style: italic;
+                                border-left: 3px solid crimson;
+                                border-radius: 3px;
+                            }
+                            
+                            .first {
+                                color: darkorange;
+                            }
+                            
+                            .h-link {
+                                text-decoration: none;
+                                background-color: tomato;
+                                padding: 7px 25px;
+                                color: whitesmoke;
+                                font-size: 13px;
+                                border-radius: 5px;
+                                margin-bottom: 100px;
+                                font-style: italic;
+                            }
+                            
+                            .division1 {
+                                width: 50%;
+                                float: left;
+                                padding-left: 20px;
+                                padding-right: 25px;
+                            }
+                            
+                            .division2 {
+                                width: 40%;
+                                float: right;
+                                padding-left: 20px;
+                            }
+                            
+                            .division2 img {
+                                width: 70%;
+                                height: 80%;
+                            }

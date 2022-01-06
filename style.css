@@ -1,93 +1,139 @@
-                        body {
-                            font-family: 'Oswald', sans-serif;
-                            margin: 20px 40px;
-                        }
-                        
-                        #border {
-                            font-size: 35px;
-                            font-weight: 800;
-                            font-style: italic;
-                            border-left: 3px solid crimson;
-                            border-bottom-left-radius: 4px.;
-                            padding: top 50px;
-                        }
-                        
-                        .first {
-                            color: darkorange;
-                        }
-                        
-                        .h-link {
-                            text-decoration: none;
-                            background-color: tomato;
-                            padding: 7px 25px;
-                            color: whitesmoke;
-                            font-size: 13px;
-                            border-radius: 5px;
-                            margin-bottom: 100px;
-                            font-style: italic;
-                        }
-                        
-                        .up-section {
-                            display: flex;
-                        }
-                        
-                        .middle-section {
-                            display: flex;
-                        }
-                        
-                        .sector1 {
-                            float: left;
-                            width: 50%;
-                            padding-right: 80px;
-                        }
-                        
-                        .image {
-                            float: right;
-                            width: 50%;
-                        }
-                        
-                        .image img {
-                            width: 80%;
-                            padding-left: 20px;
-                            margin-top: 0%;
-                        }
-                        
-                        h2 {
-                            font-size: 30px;
-                            text-align: center;
-                        }
-                        
-                        .image-three {
-                            float: left;
-                            width: 30%;
-                            background-color: rgba(196, 252, 143, 0.671)))7, 147, 129);
-                            border-radius: 10px;
-                        }
-                        
-                        .image-two {
-                            float: right;
-                            width: 30%;
-                            background-color: rgb(128, 245, 233);
-                            border-radius: 10px;
-                        }
-                        
-                        .illustrators {
-                            width: 30%;
-                            background-color: rgba(245, 161, 241, 0.726);
-                            border-radius: 10px;
-                        }
-                        
-                        .image-three img {
-                            width: 45%;
-                            height: 30%;
-                        }
-                        
-                        .image-two img {
-                            width: 45%;
-                            height: 30%;
-                        }
-                        
-                        .illustrators img {
-                            width: 45%;
-                            height: 30%;
-                        }
+body {
+    font-family: 'Oswald', sans-serif;
+    margin: 40px 45px;
+}
+
+#border {
+    font-size: 35px;
+    font-weight: 800;
+    font-style: italic;
+    border-left: 3px solid crimson;
+    border-bottom-left-radius: 4px.;
+    padding: top 50px;
+}
+
+.first {
+    color: darkorange;
+}
+
+.h-link {
+    text-decoration: none;
+    background-color: tomato;
+    padding: 10px 30px;
+    color: whitesmoke;
+    font-size: 13px;
+    border-radius: 7px;
+    margin-bottom: 100px;
+    font-style: italic;
+}
+
+.up-section {
+    display: flex;
+}
+
+.middle-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sector1 {
+    float: left;
+    width: 50%;
+    padding-right: 80px;
+}
+
+.image {
+    float: right;
+    width: 50%;
+}
+
+.image img {
+    max-width: 80%;
+    padding-left: 20px;
+    margin-top: 0%;
+}
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.picture {
+    width: 30%;
+    background-color: rgb(241, 243, 141);
+    border-radius: 20px;
+    padding-right: 10px;
+    padding-left: 20px;
+    margin: 10px 10px 10px 10px;
+}
+
+.image-two {
+    float: right;
+    width: 30%;
+    background-color: rgb(187, 250, 244);
+    border-radius: 20px;
+    padding-right: 10px;
+    padding-left: 20px;
+    margin: 10px 10px 10px 10px;
+}
+
+.illustrators {
+    width: 30%;
+    background-color: rgba(247, 195, 244, 0.726);
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 10px 10px 10px 10px;
+}
+
+.picture img {
+    max-width: 50%;
+    padding-top: 10px;
+}
+
+.image-two img {
+    max-width: 45%;
+    padding-top: 10px
+}
+
+.illustrators img {
+    max-width: 50%;
+    padding-top: 10px
+}
+
+.ending {
+    display: flex;
+    margin-top: 80px;
+}
+
+.huge {
+    text-align: left;
+    margin-top: 30px;
+}
+
+.finished {
+    display: flex;
+    margin-top: 60px;
+    justify-content: space-between;
+}
+
+.finished h3 {
+    font-size: 35px;
+}
+
+.final-copy {
+    float: right;
+    width: 50%
+}
+
+.final-copy img {
+    width: 80%;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.soft {
+    float: left;
+    width: 50%;
+    margin-right: 30px;
+}

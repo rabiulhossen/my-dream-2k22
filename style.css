@@ -3,13 +3,13 @@ body {
     margin: 40px 45px;
 }
 
-#border {
-    font-size: 35px;
+.border {
+    font-size: 50px;
     font-weight: 800;
     font-style: italic;
     border-left: 3px solid crimson;
     border-bottom-left-radius: 4px.;
-    padding: top 50px;
+    padding-top: 50px;
 }
 
 .first {
@@ -50,11 +50,10 @@ body {
 .image img {
     max-width: 80%;
     padding-left: 20px;
-    margin-top: 0%;
 }
 
 h2 {
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
 }
 
